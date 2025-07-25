@@ -34,22 +34,20 @@ class FilmRow extends Component {
   }
 
   render() {
-    const { isError, isLoading, films } = this.state;
-
     return (
        <>
        <div className="p-2" style={{ backgroundColor: '#141414' }}>
         <h4 className="ms-4 text-light">{this.props.h4}</h4>
-        {isError && ( <Alert variant="danger">Impossibile recuperare i film...</Alert>)}
-        {isLoading && <div className="d-flex justify-content-center">
+        {this.state.isError && ( <Alert variant="danger">Impossibile recuperare i film...</Alert>)}
+        {this.state.isLoading && <div className="d-flex justify-content-center">
     <Spinner animation="border" variant="light" />
   </div> }
-        {!isLoading && !isError && (
+        {!this.state.isLoading && !this.state.isError && (
           <Container fluid>
             <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 px-4 ">
             
                 {/* sennò escono anche i giochi */}
-              {films.slice(0, this.props.num).map((film) => (
+              {this.state.films.slice(0, this.props.num).map((film) => (
                 <Col key={film.imdbID}  className="mb-2 text-center px-1 d-flex flex-column h-100">
                   <Image fluid
                     src={film.Poster} alt={`Copertina film: ${film.Title}`} 

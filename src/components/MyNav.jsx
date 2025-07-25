@@ -20,9 +20,9 @@ const MyNav = () => {
           />
         </Navbar.Brand>
 
-        <Navbar.Toggle aria-controls="navbarSupportedContent" />
+        <Navbar.Toggle aria-controls="navBtn" />
 
-        <Navbar.Collapse id="navbarSupportedContent">
+        <Navbar.Collapse id="navBtn">
           <Nav className="me-auto mb-2 mb-lg-0 fw-bold">
             <Nav.Link href="#" className="active">Home</Nav.Link>
             <Nav.Link href="#">TV Shows</Nav.Link>

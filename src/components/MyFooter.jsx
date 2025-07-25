@@ -9,12 +9,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MyFooter = () => {
   return (
-    <footer className="text-white pt-2" style={{ backgroundColor: '#141414' }}>
+    <footer className="text-white py-2" style={{ backgroundColor: '#141414' }}>
       <Container>
         <Row className="justify-content-center">
           <Col xs={12} md={10} lg={8}>
             <Row className="mb-2">
-              <Col>
+              <Col >
                 <Facebook className="footer-icon me-2" />
                 <Instagram className="footer-icon me-2" />
                 <TwitterX className="footer-icon me-2" />
