@@ -102,7 +102,7 @@ class Profile extends Component {
               CANCEL
             </Button>
           </Col>
-          <Col xs={8} md={3}>
+          <Col xs={8} md={3} lg={2}>
             <Button variant="outline-secondary" className="mb-3 w-100">
               DELETE PROFILE
             </Button>

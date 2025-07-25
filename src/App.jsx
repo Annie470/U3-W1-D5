@@ -16,8 +16,8 @@ function App() {
      <FilmRow query ='Matrix' h4='I titoli del momento' num='5'/>
     <FilmRow query ='Blade' h4='Perchè ti è piaciuto Matrix' num='6'/>
     <FilmRow query ='Cube' h4='Continua a guardare' num='2'/> 
-    {/* <Account user='Cane Grande' email='CatZilla470@proton.me' plan='Premium'/> */}
-    {/* <Profile user='Cane Grande'/> */}
+    {/* <Account user='Cane Grande' email='CatZilla470@proton.me' plan='Premium'/>
+    <Profile user='Cane Grande'/> */}
     <MyFooter/>
     </>
   )
