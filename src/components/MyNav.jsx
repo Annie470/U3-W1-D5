@@ -1,11 +1,6 @@
-
-import {
-  Navbar,
-  Nav,
-  Container,
-} from 'react-bootstrap';
+import { Navbar, Nav, Container,} from 'react-bootstrap';
 import { Search, Bell, PersonCircle } from 'react-bootstrap-icons';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const MyNav = () => {
   return (
