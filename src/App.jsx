@@ -1,3 +1,4 @@
+import { Search } from 'react-bootstrap-icons'
 import './App.css'
 import Account from './components/Account'
 import FilmRow from './components/FilmRow'
@@ -6,11 +7,11 @@ import MyFooter from './components/MyFooter'
 import MyNav from './components/MyNav'
 import Profile from './components/Profile'
 
+
 function App() {
 
   return (
     <>  
-    
     <MyNav/>  
     <Hero/> 
      <FilmRow query ='Matrix' h4='I titoli del momento' num='5'/>
