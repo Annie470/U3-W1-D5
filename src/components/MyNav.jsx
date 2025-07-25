@@ -7,9 +7,8 @@ const MyNav = () => {
     <>
     <Navbar
       expand="lg"
-      bg="dark"
       data-bs-theme="dark"
-      style={{ backgroundColor: '#221f1f' }}
+      style={{ backgroundColor: '#141414' }}
       variant="dark"
     >
       <Container fluid>

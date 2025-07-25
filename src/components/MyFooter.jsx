@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MyFooter = () => {
   return (
-    <footer className="mt-5 text-white" style={{ backgroundColor: '#141414' }}>
+    <footer className="text-white pt-2" style={{ backgroundColor: '#141414' }}>
       <Container>
         <Row className="justify-content-center">
           <Col xs={12} md={10} lg={8}>
